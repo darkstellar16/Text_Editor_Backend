@@ -7,7 +7,6 @@ const cors = require('cors');
 dotenv.config()
 
 const db = require('./config/db');
-db();
 
 const dataRoutes = require('./Routes/routes')
 
